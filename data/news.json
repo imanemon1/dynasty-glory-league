@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-03T11:49:40.642070Z",
+ "updated": "2026-11-03T19:24:44.193702Z",
  "events": [
   {
    "t": "Daylight Saving Time Shift",
@@ -44,6 +44,13 @@
    "p": ""
   },
   {
+   "t": "RCM/TIPP Economic Optimism",
+   "d": "2026-11-03T04:00:00-05:00",
+   "i": "Low",
+   "f": "46.2",
+   "p": "46.8"
+  },
+  {
    "t": "JOLTS Job Openings",
    "d": "2026-11-03T10:00:00-05:00",
    "i": "Medium",
@@ -56,13 +63,6 @@
    "i": "Low",
    "f": "1.2%",
    "p": "0.1%"
-  },
-  {
-   "t": "RCM/TIPP Economic Optimism",
-   "d": "2026-11-03T10:10:00-05:00",
-   "i": "Low",
-   "f": "46.2",
-   "p": "46.8"
   },
   {
    "t": "Omdia Total Vehicle Sales",
@@ -117,7 +117,7 @@
    "t": "Crude Oil Inventories",
    "d": "2026-11-04T10:30:00-05:00",
    "i": "Low",
-   "f": "",
+   "f": "-0.1M",
    "p": "-1.9M"
   },
   {
