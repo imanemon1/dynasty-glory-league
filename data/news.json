@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-06T11:26:52.055124Z",
+ "updated": "2026-11-06T18:21:37.477684Z",
  "events": [
   {
    "t": "Daylight Saving Time Shift",
@@ -221,6 +221,13 @@
   {
    "t": "FOMC Member Bowman Speaks",
    "d": "2026-11-06T12:15:00-05:00",
+   "i": "Low",
+   "f": "",
+   "p": ""
+  },
+  {
+   "t": "FOMC Member Daly Speaks",
+   "d": "2026-11-06T13:00:00-05:00",
    "i": "Low",
    "f": "",
    "p": ""
