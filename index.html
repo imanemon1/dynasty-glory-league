@@ -641,7 +641,7 @@ body{background:#F7F9FC}
 <div class="wi-a"><small>پولی که حساب می‌شود (کیف پول):</small><div id="wiA"></div></div>
 <div id="wiS" class="wi-sum"></div>
 <form id="wiF" class="wi-f"><input id="wiN" placeholder="نام هدف (مثلاً ماشین)" required maxlength="60"><input id="wiP" type="number" min="1" step="any" placeholder="قیمت (دلار)" required inputmode="decimal"><label class="wi-up">📷 انتخاب عکس<input id="wiI" type="file" accept="image/*" hidden></label><img id="wiPv" class="wi-pv" alt="" hidden><button type="submit">💾 ذخیره هدف و اضافه به پله‌ها</button></form>
-<div id="wiL2"></div>
+<div id="wiL2"></div><div id="wiBar"></div>
 </section></div>
 <div id="p-tm" class="tpanel" data-p="tm" hidden><section>
 <div class="sec">👥 همه‌ی تیم‌ها<small id="tmhint">روی هر تیم بزن تا آمارش را ببینی</small></div>
@@ -1038,18 +1038,46 @@ up();setInterval(up,3e4)})();
 </script>
 <style id="wics">.wi-a{margin:6px 0}.wi-a small{color:#4a5878}#wiA{display:flex;flex-wrap:wrap;gap:6px 12px;margin-top:4px}.wi-ck{display:flex;gap:5px;align-items:center;font-size:13px;color:var(--navy);font-weight:700}.wi-sum{background:#EEF3FB;border-radius:12px;padding:10px;margin:8px 0;font-size:13px;font-weight:700;color:var(--navy);line-height:1.8}.wi-f{display:grid;grid-template-columns:1fr 1fr;gap:8px;margin-bottom:12px}.wi-f input[type=text],.wi-f input:not([type]),.wi-f input[type=number]{padding:10px;border:1px solid var(--ln);border-radius:10px;font:inherit;min-width:0}.wi-up{padding:10px;border:1px dashed var(--ln);border-radius:10px;text-align:center;cursor:pointer;color:var(--navy);font-weight:700;background:#fff}.wi-pv{max-height:90px;border-radius:10px;justify-self:center}.wi-f button{grid-column:1/-1;padding:11px;border:0;border-radius:10px;background:var(--navy);color:#fff;font:inherit;font-weight:800;cursor:pointer}.wi-it{background:#fff;border:1px solid var(--ln);border-inline-start:5px solid var(--gold);border-radius:14px;padding:10px;margin-bottom:8px;color:var(--navy)}.wi-top{display:flex;gap:10px;align-items:center}.wi-ph{width:84px;height:64px;flex:none;border-radius:10px;overflow:hidden;background:#E6EBF3;display:grid;place-items:center;font-size:26px}.wi-ph img{width:100%;height:100%;object-fit:cover}.wi-bd{flex:1;min-width:0}.wi-h{display:flex;justify-content:space-between;gap:8px;font-size:14px}.wi-bar{height:9px;background:#E6EBF3;border-radius:999px;overflow:hidden;margin:7px 0 5px}.wi-bar i{display:block;height:100%;background:linear-gradient(90deg,var(--blue),var(--gold));border-radius:999px}.wi-m{font-size:12px;color:#4a5878;line-height:1.7}.wi-r{display:flex;gap:6px;margin-top:6px}.wi-r button{padding:6px 10px;border:1px solid var(--ln);border-radius:9px;background:#F1F4F9;font:inherit;font-size:12px;cursor:pointer}.wi-done{border-color:#2a8;background:#EEFBF3}.wi-x{margin-inline-start:auto;color:#b33}.wi-sv{background:var(--gold)!important;color:var(--navy)!important;font-weight:800}@media(max-width:480px){.wi-f{grid-template-columns:1fr}}</style>
 
+<style id="hbcss">.hb-tw{overflow-x:auto;margin:8px 0;border-radius:12px;border:1px solid var(--ln)}.hb-t{border-collapse:collapse;width:100%;font-size:12.5px;background:#fff}.hb-t th,.hb-t td{padding:7px 8px;text-align:center;white-space:nowrap;border-bottom:1px solid #e3e8f2}.hb-t th{background:#0a1f44;color:#f4ead0}.hb-ok{color:#1a7a3c;font-weight:700}.hb-bad{color:#b32d2d;font-weight:700}.hb-now{color:#8a6a10}.hb-sum td{font-weight:800;background:#f4ead0}.hb-e{background:#2c5da8;color:#fff}.dp-bar{display:flex;gap:10px;align-items:center;flex-wrap:wrap;margin:10px 0}.dp-bar button{padding:10px 14px;border:0;border-radius:10px;background:var(--navy);color:#fff;font:inherit;font-weight:800;cursor:pointer}.dp-bar button.dp-dirty{background:var(--gold);color:var(--navy)}.dp-bar button:disabled{opacity:.6}.dp-bar span{font-size:12.5px;color:#4a5878;font-weight:700}#hbx{margin:0 0 14px}.hb-h{margin:4px 0 8px}.hb-h b{display:block;font-size:16px;color:var(--navy)}.hb-h small{color:#4a5878}.hb-c{background:linear-gradient(135deg,#0a1f44,#16407f);color:#f4ead0;border-radius:16px;padding:12px;margin:8px 0}.hb-top{display:flex;align-items:center;gap:8px}.hb-top b{font-size:15px}.hb-ic{font-size:22px}.hb-x{margin-inline-start:auto;background:transparent;border:0;color:#f5b4b4;font:inherit;cursor:pointer}.hb-big{display:grid;grid-template-columns:1fr 1fr;gap:8px;margin:10px 0;text-align:center}.hb-big b{display:block;font-size:30px;line-height:1.2;color:#ffd978}.hb-big small{opacity:.85}.hb-m{font-size:12px;opacity:.85;line-height:1.8}.hb-r{display:flex;gap:8px;flex-wrap:wrap;margin-top:8px}.hb-r button{flex:1;min-width:140px;padding:10px;border:0;border-radius:10px;font:inherit;font-weight:800;cursor:pointer}.hb-s{background:#7a2b2b;color:#fff}.hb-w{background:#ffd978;color:#0a1f44}.hb-f{display:grid;grid-template-columns:1fr 70px 100px;gap:8px;margin:8px 0}.hb-f input{padding:10px;border:1px solid var(--ln);border-radius:10px;font:inherit;min-width:0}.hb-f label{grid-column:1/3;display:flex;gap:6px;align-items:center;font-size:13px}.hb-f label input{flex:1}.hb-f button{padding:10px;border:0;border-radius:10px;background:var(--navy);color:#fff;font:inherit;font-weight:800}@media(max-width:420px){.hb-f{grid-template-columns:1fr 60px}.hb-f input:nth-child(3){grid-column:1/3}.hb-f label{grid-column:1/3}.hb-f button{grid-column:1/3}}</style>
+<script id="dglp">(function(){var S={d:{wish:[],acc:["save","cash"],habits:[]},sha:null,dirty:false,loaded:false,msg:"",busy:false},bars=[],subs=[],P="data/personal.json";
+function cfg(){var g={};try{g=JSON.parse(localStorage.getItem("dgl_gh"))||{}}catch(x){}
+if(/\.github\.io$/.test(location.hostname)&&!g.owner){g.owner=location.hostname.split(".")[0];g.repo=location.pathname.split("/")[1]||g.owner+".github.io"}return g}
+function ok(g){return g.token&&g.owner&&g.repo}
+function dec(s){return decodeURIComponent(escape(atob(s.replace(/\n/g,""))))}
+function api(g,m,body){return fetch("https://api.github.com/repos/"+g.owner+"/"+g.repo+"/contents/"+P+(m?"":"?ref="+encodeURIComponent(g.branch||"main")+"&t="+Date.now()),{method:m||"GET",headers:{Authorization:"Bearer "+g.token,Accept:"application/vnd.github+json","Content-Type":"application/json"},cache:"no-store",body:body?JSON.stringify(body):undefined}).then(function(r){if(r.status==404&&!m)return{};if(!r.ok)return Promise.reject(new Error((m?"ذخیره":"خواندن")+" ناموفق "+r.status+(r.status==401||r.status==403?" – توکن این دستگاه نامعتبر است؛ در ⚙️ تنظیمات دوباره وارد کن":"")));return r.json()})}
+function norm(j){var d=S.d;if(j&&typeof j=="object"){d.wish=j.wish||[];d.acc=j.acc||["save","cash"];d.habits=j.habits||[]}}
+function note(){var t=!ok(cfg())?"برای ذخیره، یک بار در ⚙️ تنظیمات اتصال گیت‌هاب را روی این دستگاه انجام بده.":S.busy?"در حال ذخیره…":S.dirty?"⚠️ تغییرات ذخیره نشده":S.msg||"✅ همگام با همه‌ی دستگاه‌ها";
+bars.forEach(function(b){b.s.textContent=t;b.b.disabled=S.busy;b.b.classList.toggle("dp-dirty",S.dirty)})}
+function fire(){subs.forEach(function(f){try{f()}catch(e){}});note()}
+function migrate(){/* انتقال یک‌باره‌ی داده‌ی قدیمی مرورگر */try{var w=JSON.parse(localStorage.getItem("dgl_wish"));if(w&&w.length&&!S.d.wish.length){S.d.wish=w;var a=JSON.parse(localStorage.getItem("dgl_wish_acc"));if(a)S.d.acc=a;S.dirty=true}}catch(e){}}
+function load(quiet){if(S.dirty||S.busy)return Promise.resolve();var g=cfg();
+var p=ok(g)?api(g).then(function(j){if(j.content){S.sha=j.sha;norm(JSON.parse(dec(j.content)))}else if(!S.loaded)migrate()}):fetch(P+"?v="+Date.now(),{cache:"no-store"}).then(function(r){if(r.ok)return r.json().then(norm);if(!S.loaded)migrate()});
+return p.then(function(){S.loaded=true;fire()}).catch(function(e){if(!quiet){S.msg="❌ "+e.message}S.loaded=true;fire()})}
+function save(){var g=cfg();if(!ok(g)){note();return}if(S.busy)return;S.busy=true;note();
+var txt=JSON.stringify(S.d,null,1)+"\n";if(txt.length>900000){S.busy=false;S.msg="❌ حجم داده زیاد است؛ عکس‌ها را کوچک‌تر یا کمتر کن";note();return}
+function go(n){return api(g).then(function(j){if(S.sha&&j.sha&&j.sha!==S.sha&&!n&&!confirm("روی دستگاه دیگری تغییر ذخیره شده. جایگزین شود؟ (OK = نسخه‌ی این دستگاه بماند)"))return Promise.reject(new Error("لغو شد؛ صفحه را رفرش کن تا آخرین نسخه بیاید"));
+var body={message:"به‌روزرسانی داده‌های شخصی",branch:g.branch||"main",content:btoa(unescape(encodeURIComponent(txt)))};if(j.sha)body.sha=j.sha;
+return api(g,"PUT",body).then(function(r){S.sha=r.content&&r.content.sha;return 1},function(e){if(n<2&&/ 409| 422/.test(e.message))return go(n+1);throw e})})}
+go(0).then(function(){S.dirty=false;S.busy=false;S.msg="✅ ذخیره شد؛ روی همه‌ی دستگاه‌ها دیده می‌شود";fire()}).catch(function(e){S.busy=false;S.msg="❌ "+e.message;note()})}
+function bar(host){bars=bars.filter(function(x){return document.body.contains(x.b)});var w=document.createElement("div");w.className="dp-bar";var b=document.createElement("button");b.type="button";b.textContent="💾 ذخیره برای همه‌ی دستگاه‌ها";b.onclick=save;var s=document.createElement("span");w.appendChild(b);w.appendChild(s);host.appendChild(w);bars.push({b:b,s:s});note()}
+window.DGLP={d:S.d,mark:function(){S.dirty=true;S.msg="";fire()},save:save,bar:bar,on:function(f){subs.push(f)},get state(){return S},reload:load};
+Object.defineProperty(window.DGLP,"d",{get:function(){return S.d}});
+window.addEventListener("beforeunload",function(e){if(S.dirty){e.preventDefault();e.returnValue=""}});
+document.addEventListener("visibilitychange",function(){if(!document.hidden)load(true)});
+setInterval(function(){load(true)},60000);load();setTimeout(note,0)})();
+</script>
 <script id="wijs">(function(){var K="dgl_wish",A="dgl_wish_acc",pend="";
-function ld(){try{return JSON.parse(localStorage.getItem(K))||[]}catch(e){return[]}}
-function sv(a){try{localStorage.setItem(K,JSON.stringify(a))}catch(e){alert("حافظه پر است؛ عکس کوچک‌تر بگذار.");return false}rn();return true}
+function ld(){return DGLP.d.wish}
+function sv(a){DGLP.d.wish=a;DGLP.mark();rn();return true}
 function el(t,c,x){var e=document.createElement(t);if(c)e.className=c;if(x!=null)e.textContent=x;return e}
 function fm(n){return "$"+(Math.round(n*100)/100).toLocaleString("en-US")}
-function acc(){try{var a=JSON.parse(localStorage.getItem(A));if(a)return a}catch(e){}return["save","cash"]}
+function acc(){return DGLP.d.acc}
 function funds(){var s=acc(),t=0;try{s.forEach(function(k){t+=wcur(k)})}catch(e){return null}return Math.max(0,t)}
 function pick(){var b=document.getElementById("wiA");b.textContent="";var s=acc();
 try{WD.forEach(function(w){var l=el("label","wi-ck");var c=el("input");c.type="checkbox";c.checked=s.indexOf(w.k)>-1;
-c.onchange=function(){var n=acc().filter(function(x){return x!=w.k});if(c.checked)n.push(w.k);localStorage.setItem(A,JSON.stringify(n));rn()};
+c.onchange=function(){var n=acc().filter(function(x){return x!=w.k});if(c.checked)n.push(w.k);DGLP.d.acc=n;DGLP.mark();rn()};
 l.appendChild(c);l.appendChild(el("span","",w.nm));b.appendChild(l)})}catch(e){}}
-function shrink(file,cb){var r=new FileReader();r.onload=function(){var im=new Image();im.onload=function(){var m=520,k=Math.min(1,m/Math.max(im.width,im.height)),c=document.createElement("canvas");c.width=Math.round(im.width*k);c.height=Math.round(im.height*k);c.getContext("2d").drawImage(im,0,0,c.width,c.height);cb(c.toDataURL("image/jpeg",.78))};im.src=r.result};r.readAsDataURL(file)}
+function shrink(file,cb){var r=new FileReader();r.onload=function(){var im=new Image();im.onload=function(){var m=420,k=Math.min(1,m/Math.max(im.width,im.height)),c=document.createElement("canvas");c.width=Math.round(im.width*k);c.height=Math.round(im.height*k);c.getContext("2d").drawImage(im,0,0,c.width,c.height);cb(c.toDataURL("image/jpeg",.7))};im.src=r.result};r.readAsDataURL(file)}
 document.getElementById("wiI").addEventListener("change",function(){var f=this.files[0];if(!f)return;shrink(f,function(d){pend=d;var p=document.getElementById("wiPv");p.src=d;p.hidden=false})});
 document.getElementById("wiF").addEventListener("submit",function(e){e.preventDefault();
 var n=document.getElementById("wiN").value.trim(),p=parseFloat(document.getElementById("wiP").value);if(!n||!(p>0))return;
@@ -1074,10 +1102,46 @@ var r=el("div","wi-r");var b3=el("button","","📷 عکس");b3.type="button";var
 var bs=el("button","wi-sv","💾 ذخیره عکس");bs.type="button";bs.hidden=true;var nt=el("div","wi-m","");
 var tmp=null;fi.onchange=function(){if(fi.files[0])shrink(fi.files[0],function(d){tmp=d;im2.src=d;im2.hidden=false;bs.hidden=false;nt.textContent="عکس انتخاب شد. برای ثبت «ذخیره عکس» را بزن."})};
 var im2=el("img","wi-pv");im2.hidden=true;im2.alt="";
-bs.onclick=function(){if(!tmp)return;var z=ld();z.forEach(function(q){if(q.id==it.id)q.img=tmp});if(sv(z)){nt.textContent="✅ عکس ذخیره شد"}};b3.onclick=function(){fi.click()};
+bs.onclick=function(){if(!tmp)return;var z=ld();z.forEach(function(q){if(q.id==it.id)q.img=tmp});if(sv(z)){nt.textContent="عکس ثبت شد؛ «ذخیره برای همه‌ی دستگاه‌ها» را پایین بزن"}};b3.onclick=function(){fi.click()};
 var b2=el("button","wi-x","حذف");b2.type="button";b2.onclick=function(){if(confirm("حذف شود؟"))sv(ld().filter(function(q){return q.id!=it.id}))};
 r.appendChild(b3);r.appendChild(fi);r.appendChild(bs);r.appendChild(b2);c.appendChild(r);c.appendChild(im2);c.appendChild(nt);box.appendChild(c)})}
-document.querySelector('.tab[data-t="wi"]').addEventListener("click",rn);
+document.querySelector('.tab[data-t="wi"]').addEventListener("click",rn);DGLP.bar(document.getElementById("wiBar"));DGLP.on(rn);
 setInterval(function(){var p=document.getElementById("p-wi");if(p&&!p.hidden)rn()},2500);
 setTimeout(rn,600)})();</script>
+<script id="hbjs">(function(){var host=document.createElement("div");host.id="hbx";var w=document.getElementById("wal");w.parentNode.insertBefore(host,w);
+function el(t,c,x){var e=document.createElement(t);if(c)e.className=c;if(x!=null)e.textContent=x;return e}
+var tz=new Intl.DateTimeFormat("en-CA",{timeZone:"Asia/Tehran"});function td(){return tz.format(new Date())}
+function dn(s){var p=s.split("-");return Date.UTC(+p[0],+p[1]-1,+p[2])/864e5}
+function nx(s){return new Date((dn(s)+1)*864e5).toISOString().slice(0,10)}
+function fa(n){return Math.round(n).toLocaleString("fa-IR")}
+function fm(n){return "$"+(Math.round(n*100)/100).toLocaleString("en-US")}
+function ds(n){return new Date(n*864e5).toISOString().slice(0,10)}
+function rate(h,d){var r=(h.rates&&h.rates.length)?h.rates:[{from:h.start,v:h.daily}],v=r[0].v;r.forEach(function(x){if(x.from<=d)v=x.v});return v}
+function st(h){var t=dn(td()),sl=h.slips||[],st0=dn(h.start),earn=0,days=0,best=0,run=0;
+for(var d=st0;d<t;d++){var k=ds(d);if(sl.indexOf(k)>-1){run=0}else{run++;days++;earn+=rate(h,k);if(run>best)best=run}}
+return{streak:run,best:best,days:days,earn:earn,bal:earn-(h.moved||0),slips:sl.length}}
+function rn(){host.textContent="";var H=DGLP.d.habits;
+var hd=el("div","hb-h");hd.appendChild(el("b","","🚭 پس‌انداز ترک عادت"));hd.appendChild(el("small","","هر روز پاک، مبلغ روزانه خودکار جمع می‌شود"));host.appendChild(hd);
+H.forEach(function(h){var s=st(h),c=el("div","hb-c");
+var top=el("div","hb-top");top.appendChild(el("span","hb-ic",h.ic||"🚭"));top.appendChild(el("b","",h.n));var dl=el("button","hb-x","حذف");dl.type="button";dl.onclick=function(){if(confirm("«"+h.n+"» حذف شود؟")){DGLP.d.habits=DGLP.d.habits.filter(function(q){return q.id!=h.id});DGLP.mark();rn()}};top.appendChild(dl);c.appendChild(top);
+var big=el("div","hb-big");var a=el("div","");a.appendChild(el("b","",fa(s.streak)));a.appendChild(el("small","","روز پاک"));var b=el("div","");b.appendChild(el("b","",fm(s.bal)));b.appendChild(el("small","","جمع‌شده (واریزنشده)"));big.appendChild(a);big.appendChild(b);c.appendChild(big);
+c.appendChild(el("div","hb-m","رکورد: "+fa(s.best)+" روز · کل روزهای پاک: "+fa(s.days)+" · لغزش: "+fa(s.slips)+" · ارزش امروز: "+fm(rate(h,td()))+"/روز"+(h.moved?" · واریزشده: "+fm(h.moved):"")));
+var r=el("div","hb-r");var sb=el("button","hb-s","😔 لغزش کردم");sb.type="button";sb.onclick=function(){var d=td();if((h.slips||[]).indexOf(d)>-1){alert("امروز قبلاً ثبت شده");return}if(!confirm("شمارنده‌ی روز پاک صفر شود؟ پول جمع‌شده می‌ماند."))return;h.slips=(h.slips||[]).concat(d);DGLP.mark();rn()};
+var wb=el("button","hb-w","⬇️ واریز به حساب پس‌انداز");wb.type="button";wb.onclick=function(){var cur=st(h).bal;if(!(cur>0)){alert("هنوز موجودی‌ای برای واریز نیست");return}var v=prompt("چند دلار به حساب پس‌انداز کیف پول واریز شود؟ (حداکثر "+(Math.floor(cur*100)/100)+")",String(Math.floor(cur*100)/100));if(v==null)return;v=parseFloat(String(v).replace(/[,٬]/g,""));if(!(v>0)||v>cur+1e-9){alert("مبلغ نامعتبر");return}
+h.moved=Math.round(((h.moved||0)+v)*100)/100;WS.log.push({d:today(),to:"save",amt:v});wallet();DGLP.mark();DGLP.save();try{wsave()}catch(e){}rn()};
+var eb=el("button","hb-e","✏️ تغییر ارزش روزانه");eb.type="button";eb.onclick=function(){var v=prompt("ارزش جدید هر روز پاک (دلار). از امروز اعمال می‌شود و گذشته تغییر نمی‌کند:",String(rate(h,td())));if(v==null)return;v=parseFloat(String(v).replace(/[,٬]/g,""));if(!(v>0)){alert("مبلغ نامعتبر");return}
+var rs=(h.rates&&h.rates.length)?h.rates.slice():[{from:h.start,v:h.daily}];var d=td();rs=rs.filter(function(x){return x.from!==d||x.from===h.start});if(d<=h.start){rs=[{from:h.start,v:v}]}else rs.push({from:d,v:v});rs.sort(function(a,b){return a.from<b.from?-1:1});h.rates=rs;h.daily=v;DGLP.mark();rn()};
+r.appendChild(sb);r.appendChild(eb);r.appendChild(wb);c.appendChild(r);host.appendChild(c)});
+if(H.length){var N=10,t0=dn(td()),tb=el("table","hb-t"),hr=el("tr"),days=[];hr.appendChild(el("th","","روز"));H.forEach(function(h){hr.appendChild(el("th","",(h.ic||"")+" "+h.n))});tb.appendChild(hr);
+for(var i=0;i<N;i++){var k=ds(t0-i),tr=el("tr");tr.appendChild(el("td","",i?new Intl.DateTimeFormat("fa-IR",{timeZone:"UTC",month:"short",day:"numeric"}).format(new Date(dn(k)*864e5)):"امروز"));
+H.forEach(function(h){var td_=el("td");if(k<h.start){td_.textContent="–"}else if((h.slips||[]).indexOf(k)>-1){td_.textContent="❌ لغزش";td_.className="hb-bad"}else if(i==0){td_.textContent="⏳ "+fm(rate(h,k));td_.className="hb-now"}else{td_.textContent="✅ "+fm(rate(h,k));td_.className="hb-ok"}tr.appendChild(td_)});tb.appendChild(tr)}
+var tr2=el("tr","hb-sum");tr2.appendChild(el("td","","جمع‌شده"));H.forEach(function(h){tr2.appendChild(el("td","",fm(st(h).bal)))});tb.appendChild(tr2);
+var wr=el("div","hb-tw");wr.appendChild(tb);host.appendChild(wr)}
+var f=el("form","hb-f");var n=el("input");n.placeholder="عادت (مثلاً سیگار)";n.required=true;n.maxLength=40;var ic=el("input");ic.placeholder="ایموجی";ic.maxLength=4;ic.value="🚭";var dl=el("input");dl.type="number";dl.min="0.01";dl.step="any";dl.required=true;dl.placeholder="دلار در روز";dl.value="1";dl.inputMode="decimal";var sd=el("input");sd.type="date";sd.value=td();sd.required=true;
+var lb=el("label","","شروع از ");lb.appendChild(sd);var ab=el("button","","➕ افزودن عادت");ab.type="submit";
+[n,ic,dl,lb,ab].forEach(function(x){f.appendChild(x)});
+f.onsubmit=function(e){e.preventDefault();var v=parseFloat(dl.value);if(!n.value.trim()||!(v>0))return;DGLP.d.habits.push({id:Date.now(),n:n.value.trim(),ic:ic.value||"🚭",daily:v,rates:[{from:sd.value,v:v}],start:sd.value,slips:[],moved:0});DGLP.mark();rn()};
+host.appendChild(f);DGLP.bar(host)}
+DGLP.on(rn);rn();setInterval(rn,6e4)})();
+</script>
 </html>
