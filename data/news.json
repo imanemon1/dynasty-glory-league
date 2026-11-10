@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-10T10:58:57.482711Z",
+ "updated": "2026-11-10T18:37:03.169654Z",
  "events": [
   {
    "t": "FOMC Member Bowman Speaks",
@@ -45,17 +45,17 @@
   },
   {
    "t": "ADP Weekly Employment Change",
-   "d": "2026-11-10T08:15:00-05:00",
-   "i": "Low",
-   "f": "",
-   "p": ""
-  },
-  {
-   "t": "ADP Weekly Employment Change",
-   "d": "2026-11-10T08:16:00-05:00",
+   "d": "2026-11-10T08:14:00-05:00",
    "i": "Low",
    "f": "",
    "p": "16.8K"
+  },
+  {
+   "t": "ADP Weekly Employment Change",
+   "d": "2026-11-10T08:15:00-05:00",
+   "i": "Low",
+   "f": "",
+   "p": "19.5K"
   },
   {
    "t": "Core CPI m/m",
