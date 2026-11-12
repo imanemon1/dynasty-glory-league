@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-12T18:35:44.171860Z",
+ "updated": "2026-11-12T23:51:03.301749Z",
  "events": [
   {
    "t": "FOMC Member Bowman Speaks",
@@ -170,13 +170,6 @@
    "p": "-0.9M"
   },
   {
-   "t": "Mortgage Delinquencies",
-   "d": "2026-11-12T12:59:00-05:00",
-   "i": "Low",
-   "f": "",
-   "p": "4.37%"
-  },
-  {
    "t": "30-y Bond Auction",
    "d": "2026-11-12T13:01:00-05:00",
    "i": "Low",
@@ -238,6 +231,13 @@
    "i": "Low",
    "f": "",
    "p": ""
+  },
+  {
+   "t": "Mortgage Delinquencies",
+   "d": "2026-11-13T10:15:00-05:00",
+   "i": "Low",
+   "f": "",
+   "p": "4.37%"
   },
   {
    "t": "Natural Gas Storage",
