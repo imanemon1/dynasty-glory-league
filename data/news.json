@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-12T10:11:59.360089Z",
+ "updated": "2026-11-12T18:35:44.171860Z",
  "events": [
   {
    "t": "FOMC Member Bowman Speaks",
@@ -156,13 +156,6 @@
    "p": ""
   },
   {
-   "t": "Mortgage Delinquencies",
-   "d": "2026-11-12T10:00:00-05:00",
-   "i": "Low",
-   "f": "",
-   "p": "4.37%"
-  },
-  {
    "t": "FOMC Member Goolsbee Speaks",
    "d": "2026-11-12T11:15:00-05:00",
    "i": "Low",
@@ -175,6 +168,13 @@
    "i": "Low",
    "f": "-0.6M",
    "p": "-0.9M"
+  },
+  {
+   "t": "Mortgage Delinquencies",
+   "d": "2026-11-12T12:59:00-05:00",
+   "i": "Low",
+   "f": "",
+   "p": "4.37%"
   },
   {
    "t": "30-y Bond Auction",
