@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-15T23:56:12.790243Z",
+ "updated": "2026-11-16T05:57:04.052132Z",
  "events": [
   {
    "t": "FOMC Member Barr Speaks",
@@ -33,6 +33,13 @@
    "t": "Fed Chairman Warsh Speaks",
    "d": "2026-11-16T12:00:00-05:00",
    "i": "High",
+   "f": "",
+   "p": ""
+  },
+  {
+   "t": "FOMC Member Hammack Speaks",
+   "d": "2026-11-16T14:15:00-05:00",
+   "i": "Low",
    "f": "",
    "p": ""
   },
@@ -263,7 +270,7 @@
   {
    "t": "FOMC Member Waller Speaks",
    "d": "2026-11-20T08:25:00-05:00",
-   "i": "Medium",
+   "i": "Low",
    "f": "",
    "p": ""
   },
