@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-19T12:48:21.284628Z",
+ "updated": "2026-11-19T21:21:07.537212Z",
  "events": [
   {
    "t": "FOMC Member Barr Speaks",
@@ -254,18 +254,18 @@
    "p": "0.0%"
   },
   {
-   "t": "Mortgage Delinquencies",
-   "d": "2026-11-19T10:15:00-05:00",
-   "i": "Low",
-   "f": "",
-   "p": "4.37%"
-  },
-  {
    "t": "Natural Gas Storage",
    "d": "2026-11-19T10:30:00-05:00",
    "i": "Low",
    "f": "25B",
    "p": "61B"
+  },
+  {
+   "t": "Mortgage Delinquencies",
+   "d": "2026-11-19T10:46:00-05:00",
+   "i": "Low",
+   "f": "",
+   "p": "4.37%"
   },
   {
    "t": "FOMC Member Goolsbee Speaks",
