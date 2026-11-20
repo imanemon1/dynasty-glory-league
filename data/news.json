@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-20T10:24:54.729521Z",
+ "updated": "2026-11-20T18:47:58.716928Z",
  "events": [
   {
    "t": "FOMC Member Barr Speaks",
@@ -315,6 +315,13 @@
    "i": "Medium",
    "f": "",
    "p": "4.3%"
+  },
+  {
+   "t": "President Trump Speaks",
+   "d": "2026-11-20T12:00:00-05:00",
+   "i": "Medium",
+   "f": "",
+   "p": ""
   },
   {
    "t": "FOMC Member Cook Speaks",
