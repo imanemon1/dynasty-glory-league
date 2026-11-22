@@ -1,334 +1,173 @@
 {
- "updated": "2026-11-22T02:03:26.138226Z",
+ "updated": "2026-11-22T09:38:36.474701Z",
  "events": [
   {
-   "t": "FOMC Member Barr Speaks",
-   "d": "2026-11-16T05:00:00-05:00",
-   "i": "Low",
-   "f": "",
-   "p": ""
+   "t": "Flash Manufacturing PMI",
+   "d": "2026-11-23T09:45:00-05:00",
+   "i": "Medium",
+   "f": "54.5",
+   "p": "56.0"
   },
   {
-   "t": "Empire State Manufacturing Index",
-   "d": "2026-11-16T08:30:00-05:00",
-   "i": "Low",
-   "f": "17.6",
-   "p": "25.5"
+   "t": "Flash Services PMI",
+   "d": "2026-11-23T09:45:00-05:00",
+   "i": "Medium",
+   "f": "55.6",
+   "p": "57.9"
   },
   {
    "t": "FOMC Member Williams Speaks",
-   "d": "2026-11-16T09:05:00-05:00",
-   "i": "Low",
-   "f": "",
-   "p": ""
-  },
-  {
-   "t": "Cleveland Fed Inflation Expectations",
-   "d": "2026-11-16T09:45:00-05:00",
-   "i": "Low",
-   "f": "",
-   "p": "3.3%"
-  },
-  {
-   "t": "Fed Chairman Warsh Speaks",
-   "d": "2026-11-16T12:00:00-05:00",
-   "i": "High",
-   "f": "",
-   "p": ""
-  },
-  {
-   "t": "FOMC Member Hammack Speaks",
-   "d": "2026-11-16T14:15:00-05:00",
-   "i": "Low",
-   "f": "",
-   "p": ""
-  },
-  {
-   "t": "FOMC Member Barkin Speaks",
-   "d": "2026-11-16T18:10:00-05:00",
-   "i": "Low",
-   "f": "",
-   "p": ""
-  },
-  {
-   "t": "FOMC Member Goolsbee Speaks",
-   "d": "2026-11-16T18:30:00-05:00",
-   "i": "Low",
-   "f": "",
-   "p": ""
-  },
-  {
-   "t": "FOMC Member Musalem Speaks",
-   "d": "2026-11-17T07:30:00-05:00",
+   "d": "2026-11-23T16:00:00-05:00",
    "i": "Low",
    "f": "",
    "p": ""
   },
   {
    "t": "ADP Weekly Employment Change",
-   "d": "2026-11-17T08:15:00-05:00",
+   "d": "2026-11-24T08:15:00-05:00",
    "i": "Low",
    "f": "",
-   "p": "19.8K"
+   "p": "23.8K"
   },
   {
-   "t": "Core Retail Sales m/m",
-   "d": "2026-11-17T08:30:00-05:00",
-   "i": "High",
-   "f": "0.4%",
-   "p": "0.9%"
-  },
-  {
-   "t": "Retail Sales m/m",
-   "d": "2026-11-17T08:30:00-05:00",
-   "i": "High",
-   "f": "0.1%",
-   "p": "0.8%"
-  },
-  {
-   "t": "Import Prices m/m",
-   "d": "2026-11-17T08:30:00-05:00",
+   "t": "HPI m/m",
+   "d": "2026-11-24T09:00:00-05:00",
    "i": "Low",
-   "f": "0.7%",
-   "p": "1.1%"
+   "f": "0.2%",
+   "p": "0.3%"
   },
   {
-   "t": "FOMC Member Waller Speaks",
-   "d": "2026-11-17T09:10:00-05:00",
+   "t": "S&P/CS Composite-20 HPI y/y",
+   "d": "2026-11-24T09:00:00-05:00",
    "i": "Low",
-   "f": "",
-   "p": ""
+   "f": "2.7%",
+   "p": "2.7%"
   },
   {
-   "t": "Capacity Utilization Rate",
-   "d": "2026-11-17T09:15:00-05:00",
-   "i": "Low",
-   "f": "76.8%",
-   "p": "76.9%"
+   "t": "CB Consumer Confidence",
+   "d": "2026-11-24T10:00:00-05:00",
+   "i": "Medium",
+   "f": "92.1",
+   "p": "91.7"
   },
   {
-   "t": "Industrial Production m/m",
-   "d": "2026-11-17T09:15:00-05:00",
+   "t": "Richmond Manufacturing Index",
+   "d": "2026-11-24T10:00:00-05:00",
    "i": "Low",
-   "f": "0.0%",
-   "p": "0.7%"
-  },
-  {
-   "t": "FOMC Member Hammack Speaks",
-   "d": "2026-11-17T09:30:00-05:00",
-   "i": "Low",
-   "f": "",
-   "p": ""
-  },
-  {
-   "t": "Business Inventories m/m",
-   "d": "2026-11-17T10:00:00-05:00",
-   "i": "Low",
-   "f": "0.5%",
-   "p": "0.4%"
-  },
-  {
-   "t": "NAHB Housing Market Index",
-   "d": "2026-11-17T10:00:00-05:00",
-   "i": "Low",
-   "f": "29",
-   "p": "29"
-  },
-  {
-   "t": "FOMC Member Williams Speaks",
-   "d": "2026-11-17T14:25:00-05:00",
-   "i": "Low",
-   "f": "",
-   "p": ""
+   "f": "-3",
+   "p": "-2"
   },
   {
    "t": "API Weekly Statistical Bulletin",
-   "d": "2026-11-17T16:30:00-05:00",
+   "d": "2026-11-24T16:30:00-05:00",
    "i": "Low",
    "f": "",
    "p": ""
   },
   {
-   "t": "Building Permits",
-   "d": "2026-11-18T08:30:00-05:00",
-   "i": "Low",
-   "f": "1.38M",
-   "p": "1.40M"
-  },
-  {
-   "t": "Housing Starts",
-   "d": "2026-11-18T08:30:00-05:00",
-   "i": "Low",
-   "f": "1.25M",
-   "p": "1.22M"
-  },
-  {
-   "t": "Pending Home Sales m/m",
-   "d": "2026-11-18T10:00:00-05:00",
-   "i": "Low",
-   "f": "-2.0%",
-   "p": "-7.3%"
-  },
-  {
-   "t": "Crude Oil Inventories",
-   "d": "2026-11-18T10:30:00-05:00",
-   "i": "Low",
-   "f": "0.4M",
-   "p": "4.7M"
-  },
-  {
-   "t": "FOMC Member Daly Speaks",
-   "d": "2026-11-18T12:15:00-05:00",
-   "i": "Low",
-   "f": "",
-   "p": ""
-  },
-  {
-   "t": "FOMC Member Barr Speaks",
-   "d": "2026-11-18T13:35:00-05:00",
-   "i": "Low",
-   "f": "",
-   "p": ""
-  },
-  {
-   "t": "FOMC Meeting Minutes",
-   "d": "2026-11-18T14:00:00-05:00",
+   "t": "Core PCE Price Index m/m",
+   "d": "2026-11-25T08:30:00-05:00",
    "i": "High",
-   "f": "",
-   "p": ""
+   "f": "0.3%",
+   "p": "0.3%"
   },
   {
-   "t": "FOMC Member Williams Speaks",
-   "d": "2026-11-18T14:30:00-05:00",
-   "i": "Low",
-   "f": "",
-   "p": ""
+   "t": "Prelim GDP q/q",
+   "d": "2026-11-25T08:30:00-05:00",
+   "i": "High",
+   "f": "3.5%",
+   "p": "3.4%"
   },
   {
-   "t": "TIC Long-Term Purchases",
-   "d": "2026-11-18T16:00:00-05:00",
-   "i": "Low",
-   "f": "160.7B",
-   "p": "279.2B"
-  },
-  {
-   "t": "FOMC Member Kashkari Speaks",
-   "d": "2026-11-18T16:15:00-05:00",
-   "i": "Low",
-   "f": "",
-   "p": ""
-  },
-  {
-   "t": "Philly Fed Manufacturing Index",
-   "d": "2026-11-19T08:30:00-05:00",
+   "t": "Prelim GDP Price Index q/q",
+   "d": "2026-11-25T08:30:00-05:00",
    "i": "Medium",
-   "f": "20.6",
-   "p": "20.9"
+   "f": "2.3%",
+   "p": "2.3%"
   },
   {
    "t": "Unemployment Claims",
-   "d": "2026-11-19T08:30:00-05:00",
+   "d": "2026-11-25T08:30:00-05:00",
    "i": "Medium",
-   "f": "198K",
-   "p": "200K"
+   "f": "201K",
+   "p": "203K"
   },
   {
-   "t": "FOMC Member Hammack Speaks",
-   "d": "2026-11-19T08:50:00-05:00",
+   "t": "Core Durable Goods Orders m/m",
+   "d": "2026-11-25T08:30:00-05:00",
+   "i": "Low",
+   "f": "0.5%",
+   "p": "0.5%"
+  },
+  {
+   "t": "Durable Goods Orders m/m",
+   "d": "2026-11-25T08:30:00-05:00",
+   "i": "Low",
+   "f": "0.5%",
+   "p": "1.8%"
+  },
+  {
+   "t": "Personal Income m/m",
+   "d": "2026-11-25T08:30:00-05:00",
+   "i": "Low",
+   "f": "0.4%",
+   "p": "0.2%"
+  },
+  {
+   "t": "Personal Spending m/m",
+   "d": "2026-11-25T08:30:00-05:00",
+   "i": "Low",
+   "f": "0.4%",
+   "p": "0.5%"
+  },
+  {
+   "t": "New Home Sales",
+   "d": "2026-11-25T10:00:00-05:00",
+   "i": "Low",
+   "f": "649K",
+   "p": "676K"
+  },
+  {
+   "t": "Crude Oil Inventories",
+   "d": "2026-11-25T10:30:00-05:00",
    "i": "Low",
    "f": "",
-   "p": ""
-  },
-  {
-   "t": "FOMC Member Jefferson Speaks",
-   "d": "2026-11-19T09:25:00-05:00",
-   "i": "Low",
-   "f": "",
-   "p": ""
-  },
-  {
-   "t": "CB Leading Index m/m",
-   "d": "2026-11-19T10:00:00-05:00",
-   "i": "Low",
-   "f": "0.0%",
-   "p": "0.0%"
+   "p": "3.4M"
   },
   {
    "t": "Natural Gas Storage",
-   "d": "2026-11-19T10:30:00-05:00",
-   "i": "Low",
-   "f": "25B",
-   "p": "61B"
-  },
-  {
-   "t": "Mortgage Delinquencies",
-   "d": "2026-11-19T10:46:00-05:00",
+   "d": "2026-11-25T12:00:00-05:00",
    "i": "Low",
    "f": "",
-   "p": "4.37%"
+   "p": "20B"
   },
   {
-   "t": "FOMC Member Goolsbee Speaks",
-   "d": "2026-11-19T12:30:00-05:00",
+   "t": "Beige Book",
+   "d": "2026-11-25T14:00:00-05:00",
    "i": "Low",
    "f": "",
    "p": ""
   },
   {
-   "t": "FOMC Member Barr Speaks",
-   "d": "2026-11-19T14:15:00-05:00",
+   "t": "Bank Holiday",
+   "d": "2026-11-26T08:00:00-05:00",
+   "i": "Holiday",
+   "f": "",
+   "p": ""
+  },
+  {
+   "t": "Goods Trade Balance",
+   "d": "2026-11-27T08:30:00-05:00",
    "i": "Low",
-   "f": "",
-   "p": ""
+   "f": "-134.4B",
+   "p": "-134.9B"
   },
   {
-   "t": "FOMC Member Barkin Speaks",
-   "d": "2026-11-19T16:00:00-05:00",
+   "t": "Prelim Wholesale Inventories m/m",
+   "d": "2026-11-27T08:30:00-05:00",
    "i": "Low",
-   "f": "",
-   "p": ""
-  },
-  {
-   "t": "FOMC Member Paulson Speaks",
-   "d": "2026-11-19T18:30:00-05:00",
-   "i": "Low",
-   "f": "",
-   "p": ""
-  },
-  {
-   "t": "FOMC Member Waller Speaks",
-   "d": "2026-11-20T08:25:00-05:00",
-   "i": "Low",
-   "f": "",
-   "p": ""
-  },
-  {
-   "t": "Revised UoM Consumer Sentiment",
-   "d": "2026-11-20T10:00:00-05:00",
-   "i": "Medium",
-   "f": "51.7",
-   "p": "51.0"
-  },
-  {
-   "t": "Revised UoM Inflation Expectations",
-   "d": "2026-11-20T10:00:00-05:00",
-   "i": "Medium",
-   "f": "",
-   "p": "4.3%"
-  },
-  {
-   "t": "President Trump Speaks",
-   "d": "2026-11-20T12:00:00-05:00",
-   "i": "Medium",
-   "f": "",
-   "p": ""
-  },
-  {
-   "t": "FOMC Member Cook Speaks",
-   "d": "2026-11-20T12:15:00-05:00",
-   "i": "Low",
-   "f": "",
-   "p": ""
+   "f": "0.7%",
+   "p": "0.6%"
   }
  ]
 }
