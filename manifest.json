@@ -1,0 +1,15 @@
+{
+  "name": "Dynasty Glory League",
+  "short_name": "DGL",
+  "start_url": "./index.html",
+  "scope": "./",
+  "display": "standalone",
+  "background_color": "#F4F6F9",
+  "theme_color": "#0a1f44",
+  "lang": "fa",
+  "dir": "rtl",
+  "icons": [
+    {"src": "assets/app/icon-192.png", "sizes": "192x192", "type": "image/png"},
+    {"src": "assets/app/icon-512.png", "sizes": "512x512", "type": "image/png"}
+  ]
+}
