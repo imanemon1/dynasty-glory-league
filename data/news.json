@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-24T22:45:02.301280Z",
+ "updated": "2026-11-25T05:23:10.554352Z",
  "events": [
   {
    "t": "Flash Manufacturing PMI",
@@ -60,6 +60,13 @@
   {
    "t": "API Weekly Statistical Bulletin",
    "d": "2026-11-24T16:30:00-05:00",
+   "i": "Low",
+   "f": "",
+   "p": ""
+  },
+  {
+   "t": "FOMC Member Bowman Speaks",
+   "d": "2026-11-25T07:25:00-05:00",
    "i": "Low",
    "f": "",
    "p": ""
@@ -131,7 +138,7 @@
    "t": "Crude Oil Inventories",
    "d": "2026-11-25T10:30:00-05:00",
    "i": "Low",
-   "f": "",
+   "f": "2.0M",
    "p": "3.4M"
   },
   {
